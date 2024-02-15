@@ -1,0 +1,17 @@
+{
+  "Instructions": "This is the configuration file for the BrightSign Video Uploader.  The remote section is for the BrightSign device and the local section is for the local computer.  The timeout values are in milliseconds.",
+  "remote": {
+    "timeout": 15000,
+    "host": "192.168.1.203",
+    "port": "22",
+    "username": "brightsign",
+    "password": "password",
+    "destinationFolder": "/storage/sd/altusevideos"
+  },
+  "local": {
+    "os": "windows",
+    "renameTimeout": 500,
+    "oldFileTimeout": 2000,
+    "watchFolder": "C:\\Users\\nicho\\Desktop\\Movies"
+  }
+}
