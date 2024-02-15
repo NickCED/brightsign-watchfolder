@@ -158,7 +158,6 @@ function fileEventRouter(event, path, stats) {
       event: 'rename',
       path: path,
       remotePath: remotePath,
-      probableRenamePath: probableRename.path,
     });
     delete recentlyMoved[path];
     delete recentlyMoved[probableRename.path];
